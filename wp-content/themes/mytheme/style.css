@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+body {
+	color #333;
+	font-size: 14px;
+	font-family: Arial, sans-serif;	
+}
+
+p {
+	line-height: 1.65em;
+}
+/**
+a:link {
+	color: #0645AD;
+	
+}
+
+a:visited {
+	color: #663366;
+}
+*/
+.site-header {
+	border-bottom: 1px solid #999;
+}
+
+.site-footer {
+	border-top: 1px solid #999;
+	margin-top: 30px;
+	
+}
+
+div.container {
+	max-width: 920px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article.post {
+	border-bottom: 2px dotted #bbbbbb;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
