@@ -107,5 +107,38 @@ article.post:last-of-type {
 
 /* Pages */
 article.page h2 {
-	font-size: 45px;
+	font-size: 35px;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: block; }
+.clearfix:after { clear:both; }
+.clearfix { *zoom: 1; }
+
+/* Two Column Title Layout */
+div.title-column {
+	width: 30%;
+	float:left;
+}
+
+div.text-column {
+	width: 70%;
+	float:right;
+}
+
+/* Info-Box Styles */
+div.info-box {
+	width: 30%;
+	float: right;
+	margin: 0 0 30px 30px;
+	padding: 20px;
+	background-color: #EEE;
+}
+
+div.info-box h4 {
+	margin-bottom: 6px;
+}
+
+div.info-box p {
+	font-size: 85%;
 }

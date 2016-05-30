@@ -21,6 +21,10 @@
 			<h1><a href="<?php echo home_url(); ?>">My Site</a></h1>
 			<h5><?php bloginfo('description'); ?></h5>
 			
+			<?php if (is_page(2)) { ?>
+				<h5>Thank you for viewing the <?php the_title() ?></h5>
+			<?php } ?>
+			
 			<nav class="site-nav">
 				<?php 
 				$args = array (
