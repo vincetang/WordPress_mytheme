@@ -189,3 +189,20 @@ div.info-box p {
 .children-links .parent-link a:visited {
 	color: #333;
 }
+
+/* Post Style */
+.post h2 {
+	margin-bottom: 0px;
+}
+
+p.post-info {
+	font-size: 87%;
+	color: #999;
+	margin-top: 0px;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+	color: #999;
+}
+
