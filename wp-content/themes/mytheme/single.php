@@ -1,9 +1,9 @@
-<?php 
+<?php
 get_header();
-	
+
 if (have_posts()) :
 
-	while (have_posts()) : the_post();?>
+while (have_posts()) : the_post();?>
 		<article class="post">
 			<h2><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h2>	
 			
@@ -25,15 +25,8 @@ if (have_posts()) :
 			?>
 			</a>
 			</p>
-			<?php if ($post->post_excerpt) { ?>
-			<p>
-				<?php echo get_the_excerpt(); ?>
-				<a href="<?php the_permalink(); ?>">Read more&raquo;</a>
-			</p>
-			<?php } else {
-				the_content();
-			} ?>
-
+			
+			<?php the_content(); ?>
 		</article>
 	<?php endwhile;
 	
