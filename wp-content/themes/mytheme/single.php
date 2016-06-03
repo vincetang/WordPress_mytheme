@@ -26,6 +26,7 @@ while (have_posts()) : the_post();?>
 			</a>
 			</p>
 			
+			<?php the_post_thumbnail('banner-image'); ?>;
 			<?php the_content(); ?>
 		</article>
 	<?php endwhile;
